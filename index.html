@@ -1,11 +1,280 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Página personal de Jorge Flores, estudiante de Ingeniería en Desarrollo de Software y usuario de Debian Linux.">
+    <title>Jorge Flores | Debian & Development</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">JF<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#debian">Debian</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="tag">ESTUDIANTE DE DESARROLLO DE SOFTWARE</span>
+
+                <h1>Hola, soy <span>Jorge Flores.</span></h1>
+
+                <h2>Linux enthusiast & Future Developer</h2>
+
+                <p>
+                    Apasionado por la tecnología, el desarrollo de software
+                    y los sistemas GNU/Linux. Actualmente utilizo Debian
+                    como mi entorno principal de trabajo y aprendizaje.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#sobre-mi" class="btn primary">Conóceme</a>
+                    <a href="#proyectos" class="btn secondary">Mis proyectos</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <p>jflores@debian: ~</p>
+                    </div>
+
+                    <div class="terminal-body">
+                        <p><span class="green">jflores@debian</span>:~$ whoami</p>
+                        <p>Jorge Flores</p>
+
+                        <p><span class="green">jflores@debian</span>:~$ uname -o</p>
+                        <p>GNU/Linux</p>
+
+                        <p><span class="green">jflores@debian</span>:~$ echo $PASSION</p>
+                        <p>Programming & Technology</p>
+
+                        <p><span class="green">jflores@debian</span>:~$ <span class="cursor">_</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="sobre-mi">
+            <div class="section-title">
+                <span>01 / PERFIL</span>
+                <h2>Sobre mí</h2>
+            </div>
+
+            <div class="about-content">
+                <div>
+                    <h3>Aprender, experimentar y construir.</h3>
+                    <p>
+                        Soy estudiante de Ingeniería en Desarrollo de Software,
+                        interesado en comprender cómo funciona la tecnología
+                        y cómo utilizarla para desarrollar soluciones.
+                    </p>
+
+                    <p>
+                        Me gusta explorar sistemas operativos, configurar
+                        entornos Linux, aprender nuevos lenguajes de
+                        programación y trabajar en proyectos que me permitan
+                        mejorar mis habilidades.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-item">
+                        <span>Nombre</span>
+                        <strong>Jorge Flores</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Área</span>
+                        <strong>Desarrollo de Software</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Sistema operativo</span>
+                        <strong>Debian GNU/Linux</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Objetivo</span>
+                        <strong>Convertirme en desarrollador</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="debian section" id="debian">
+            <div class="section-title">
+                <span>02 / SISTEMA OPERATIVO</span>
+                <h2>Mi mundo es Debian</h2>
+            </div>
+
+            <div class="debian-content">
+                <div class="debian-logo">
+                    <img
+                        src="https://www.debian.org/logos/openlogo-nd.svg"
+                        alt="Logotipo oficial de Debian">
+                </div>
+
+                <div class="debian-text">
+                    <h3>Debian GNU/Linux</h3>
+
+                    <p>
+                        Debian es un sistema operativo libre y de código
+                        abierto, reconocido por su estabilidad, seguridad
+                        y compromiso con el software libre.
+                    </p>
+
+                    <p>
+                        Es mi sistema operativo principal. Lo utilizo para
+                        programar, estudiar, experimentar con herramientas
+                        de desarrollo y personalizar mi entorno de trabajo.
+                    </p>
+
+                    <div class="debian-tags">
+                        <span>Open Source</span>
+                        <span>Linux</span>
+                        <span>GNOME</span>
+                        <span>APT</span>
+                        <span>GNU</span>
+                    </div>
+
+                    <a href="https://www.debian.org/" target="_blank"
+                       rel="noopener noreferrer" class="btn primary">
+                        Conocer Debian
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="technologies section" id="tecnologias">
+            <div class="section-title">
+                <span>03 / HERRAMIENTAS</span>
+                <h2>Tecnologías e intereses</h2>
+            </div>
+
+            <div class="tech-grid">
+
+                <article class="tech-card">
+                    <div class="tech-icon">🐧</div>
+                    <h3>Linux</h3>
+                    <p>Debian, terminal, administración y personalización del sistema.</p>
+                </article>
+
+                <article class="tech-card">
+                    <div class="tech-icon">🌐</div>
+                    <h3>HTML & CSS</h3>
+                    <p>Desarrollo de interfaces web y diseño adaptable.</p>
+                </article>
+
+                <article class="tech-card">
+                    <div class="tech-icon">💻</div>
+                    <h3>JavaScript</h3>
+                    <p>Lógica de programación y desarrollo web.</p>
+                </article>
+
+                <article class="tech-card">
+                    <div class="tech-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Programación, automatización y aprendizaje.</p>
+                </article>
+
+                <article class="tech-card">
+                    <div class="tech-icon">⚙️</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Control de versiones y gestión de proyectos.</p>
+                </article>
+
+                <article class="tech-card">
+                    <div class="tech-icon">🖥️</div>
+                    <h3>Desarrollo</h3>
+                    <p>Resolución de problemas y creación de soluciones.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="projects section" id="proyectos">
+            <div class="section-title">
+                <span>04 / TRABAJO</span>
+                <h2>Mis proyectos</h2>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">01</div>
+
+                <div>
+                    <h3>Proyectos académicos</h3>
+                    <p>
+                        Desarrollo de ejercicios y aplicaciones como parte
+                        de mi formación en Ingeniería en Desarrollo de Software.
+                    </p>
+                    <span class="project-tag">JavaScript · Python · HTML · CSS</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+
+                <div>
+                    <h3>Personalización de Debian</h3>
+                    <p>
+                        Configuración de mi entorno GNU/Linux, instalación
+                        de herramientas, optimización y personalización
+                        del escritorio GNOME.
+                    </p>
+                    <span class="project-tag">Debian · GNOME · Terminal</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">03</div>
+
+                <div>
+                    <h3>Aprendizaje continuo</h3>
+                    <p>
+                        Experimentación con nuevas tecnologías y desarrollo
+                        de proyectos personales para fortalecer mis habilidades.
+                    </p>
+                    <span class="project-tag">Programming · Linux · GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section">
+            <h2>El aprendizaje nunca termina.</h2>
+            <p>
+                Cada línea de código es una oportunidad para aprender,
+                experimentar y construir algo nuevo.
+            </p>
+
+            <a href="https://github.com/" target="_blank"
+               rel="noopener noreferrer" class="btn primary">
+                Visitar GitHub
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Jorge Flores. Desarrollado con HTML, CSS y GNU/Linux.</p>
+        <p>Powered by Debian <span>♥</span></p>
+    </footer>
+
 </body>
 </html>
